@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Präsentation: Claude Shannon – Vater der  Informationstheorie</title>
+  <style>
+    body {
+      background-color: #000000;
+      background-image: radial-gradient(#00ff41 1px, transparent 1px);
+      background-size: 30px 30px;
+      color: #f8fafc; font-family: 'Segoe UI', sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0;
+      overflow: hidden;
+      position: relative;
+    }
+    .binary-rain {
+      position: absolute;
+      top: -20px;
+      color: rgba(0, 255, 65, 0.9);
+      text-shadow: 0 0 10px rgba(0, 255, 65, 0.8), 0 0 20px rgba(0, 255, 65, 0.4);
+      font-family: monospace;
+      font-size: 18px;
+      user-select: none;
+      pointer-events: none;
+      animation: fall linear infinite;
+      z-index: 0;
+    }
+    @keyframes fall {
+      0% { transform: translateY(-20px); opacity: 0; }
+      10% { opacity: 0.6; }
+      90% { opacity: 0.6; }
+      100% { transform: translateY(105vh); opacity: 0; }
+    }
+    .slide {background: #000000; padding: 3rem; border-radius: 1rem; box-shadow: 0 0 15px rgba(0,255,65,0.2); width: 95%; max-width: 1200px; display: none; border: 1px solid #00ff41;}
+    h1, h2 {color: #38bdf8;}
+    .nav {margin-top: 2rem;}
+    button {background: #38bdf8; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; color: #0f172a; transition: 0.3s;}
+    button:hover {background: #7dd3fc;}
+  </style>
+</head>
+<body>
+
+<div id="slide0" class="slide">
+  <h1>Claude Shannon – Der Vater der Informationstheorie</h1>
+  <p><strong>Thema:</strong> Diese Präsentation zeigt das Leben, die Erfindungen und die wichtigsten Entdeckungen von Claude Shannon. Ohne ihn gäbe es kein Internet, keine Handys und keine digitalen Geräte wie wir sie heute kennen.</p>
+  <p style="text-align: right; font-size: 0.8rem; margin-top: 20px;">©️2026, Spyro, 9a</p>
+</div>
+
+<div id="slide1" class="slide">
+  <h2>Leben & Werdegang</h2>
+  <p>Claude Elwood Shannon (1916–2001) war ein US-amerikanischer Mathematiker und Elektroingenieur. Er war unglaublich schlau und hat die Technikwelt für immer verändert.</p>
+  <ul>
+    <li><strong>Ausbildung:</strong> Er studierte Mathematik und Elektrotechnik an der University of Michigan (doppelter Bachelor). Danach machte er 1937 seinen Master und 1940 seine Promotion am berühmten MIT.</li>
+    <li><strong>Karriere:</strong> Ab 1941 forschte er viele Jahre in den Bell Laboratories – einem der wichtigsten Forschungslabore der Welt. 1958 wurde er Professor am MIT und lehrte dort bis 1978.</li>
+    <li><strong>Späte Jahre & Vermächtnis:</strong> Seine letzten Lebensjahre waren durch Alzheimer geprägt. Er starb 2001, aber sein wissenschaftliches Erbe lebt bis heute weiter.</li>
+  </ul>
+  <p style="text-align: right; font-size: 0.8rem; margin-top: 20px;">©️2026, Spyro, 9a</p>
+</div>
+
+<div id="slide2" class="slide">
+  <h2>Wichtige Beiträge</h2>
+  <ul>
+    <li><strong>Digitale Schaltkreise (1937):</strong> In seiner Masterarbeit bewies Shannon: Die Boolesche Logik (Nullen und Einsen) lässt sich perfekt auf elektronische Schaltungen anwenden. Das ist bis heute die Basis aller Computer.</li>
+    <li><strong>Militärforschung im 2. Weltkrieg:</strong> Er entwickelte bessere Feuerleitsysteme und Radartechnik, damit Flugabwehrgeschütze und Kampfflugzeuge viel genauer zielen konnten.</li>
+    <li><strong>Informationstheorie (1948):</strong> Er übernahm den Begriff "Entropie" aus der Physik und nutzte ihn für die Nachrichtentechnik. So entstand eine komplett neue Mathematik für verlustfreie Datenübertragung.</li>
+    <li><strong>Abtasttheorem (1948):</strong> Er legte fest, wie man analoge Signale (wie Schallwellen) verlustfrei in digitale Daten (Nullen und Einsen) umwandelt.</li>
+    <li><strong>Kryptographie (1949):</strong> Er machte aus der Verschlüsselung, die vorher oft nurratespiel war, eine exakte Wissenschaft mit mathematischen Beweisen.</li>
+    <li><strong>Finanzmathematik (1960er):</strong> Er entwickelte auch mathematische Modelle für die Börse, die auf Kursschwankungen basieren.</li>
+  </ul>
+  <p style="text-align: right; font-size: 0.8rem; margin-top: 20px;">©️2026, Spyro, 9a</p>
+</div>
+
+<div id="slide3" class="slide">
+  <h2>Grundlagen seiner Theorie</h2>
+  <ul>
+    <li><strong>Information als messbare Größe:</strong> Shannon definierte Information zum ersten Mal als etwas, das man messen kann – in <strong>Bits</strong> (Null oder Eins).</li>
+    <li><strong>Das Konzept der Entropie:</strong> Er holte den Entropie-Begriff aus der Thermodynamik (Wärmelehre). Damit kann man messen, wie "überraschend" oder unvorhersehbar eine Nachricht ist – also wie viel Information sie wirklich enthält.</li>
+    <li><strong>Kanalkapazität:</strong> Er berechnete die absolute Höchstgrenze, wie viele Daten man fehlerfrei über ein Kabel, Funk oder Lichtwelle schicken kann.</li>
+    <li><strong>Kompression und Korrektur:</strong> Seine Formeln sind die Basis für ZIP-Dateien, MP3, JPEG und für Fehlerkorrektur-Codes, die kaputte Daten selbst reparieren (z. B. auf CDs oder in WLAN).</li>
+  </ul>
+  <p style="text-align: right; font-size: 0.8rem; margin-top: 20px;">©️2026, Spyro, 9a</p>
+</div>
+
+<div id="slide4" class="slide">
+  <h2>Moderne Auswirkungen</h2>
+  <ul>
+    <li><strong>Globale Telekommunikation:</strong> Ohne Shannons Formeln gäbe es kein Internet, kein 4G/5G, kein WLAN – also keine digitale Kommunikation wie wir sie kennen.</li>
+    <li><strong>Alltägliche Medienformate:</strong> JPEG (Bilder), MP3 (Musik), MP4 (Videos) – alle diese Kompressionsverfahren basieren direkt auf seinen Ideen, Daten kleiner zu machen ohne wichtige Infos zu verlieren.</li>
+    <li><strong>Datensicherheit & Hardware:</strong> Fehlerkorrektur in SSDs, Blu-rays, Satellitenfunk und QR-Codes nutzt seine mathematischen Codes, damit Daten auch bei Störungen richtig ankommen.</li>
+    <li><strong>Wissenschaftliche Basis:</strong> Seine Theorien sind bis heute das Fundament für Informatik, künstliche Intelligenz und moderne Verschlüsselung (Kryptographie).</li>
+  </ul>
+  <p style="text-align: right; font-size: 0.8rem; margin-top: 20px;">©️2026, Spyro, 9a</p>
+</div>
+
+<div id="slide5" class="slide">
+  <h2>Schlussfolgerung</h2>
+  <p>Claude Shannons geniale Ideen schufen das theoretische Fundament für unsere gesamte digitale Welt. Seine Theorien stecken in jedem Smartphone, jedem Computer, im Internet und in fast aller moderner Technik. Sein Name steht für immer für die Erfindung der digitalen Informationstechnologie.</p>
+  <p style="text-align: right; font-size: 0.8rem; margin-top: 20px;">©️2026, Spyro, 9a</p>
+</div>
+
+<div id="slide6" class="slide" style="text-align: center;">
+  <h2>Präsentation erstellt von:</h2>
+  <p style="font-size: 1.5rem; color: #00ff41;">Spyro, 9a</p>
+  <p style="text-align: right; font-size: 0.8rem; margin-top: 20px;">©️2026, Spyro, 9a</p>
+</div>
+
+<div class="nav">
+  <button id="prevBtn" onclick="prevSlide()">← Zurück</button>
+  <button id="nextBtn" onclick="nextSlide()">Weiter →</button>
+  <button id="quizBtn" onclick="openQuiz()" style="background: #64748b; padding: 12px 25px; font-size: 1.1rem; margin-left: 15px; cursor: not-allowed;" disabled>🔒 Quiz erst nach allen Folien</button>
+  <button onclick="openGame()" style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); background: #00ff41; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; color: #0f172a; box-shadow: 0 0 10px rgba(0,255,65,0.5);">Bit-Flieger</button>
+  <select onchange="showSlide(this.value)" style="position: absolute; top: 20px; left: 20px; background: #38bdf8; border: none; padding: 10px; border-radius: 5px; cursor: pointer; font-weight: bold; color: #0f172a;">
+    <option value="0">Start</option>
+    <option value="1">Lebensdaten</option>
+    <option value="2">Beiträge</option>
+    <option value="3">Grundlagen</option>
+    <option value="4">Auswirkungen</option>
+    <option value="5">Schluss</option>
+    <option value="6">Credits</option>
+  </select>
+  <select onchange="changeLang(this.value)" style="position: absolute; top: 20px; right: 20px; background: #38bdf8; border: none; padding: 10px; border-radius: 5px; cursor: pointer; font-weight: bold; color: #0f172a;">
+    <option value="de">Deutsch</option>
+    <option value="en">English</option>
+    <option value="zh">中文</option>
+    <option value="el">Ελληνικά</option>
+    <option value="ko">한국어</option>
+  </select>
+</div>
+
+<div id="quizModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:1000; align-items:center; justify-content:center;">
+  <div style="background:#000; border:2px solid #00ff41; padding:2.5rem; border-radius:1rem; width:90%; max-width:700px; max-height:85vh; overflow-y:auto; box-shadow:0 0 20px rgba(0,255,65,0.3); color:#f8fafc;">
+    <h2 style="color:#38bdf8; margin-top:0;">Claude Shannon Quiz</h2>
+    <div id="quizContent"></div>
+    <button onclick="closeQuiz()" style="margin-top:20px; background:#ef4444; color:#fff;">Quiz schließen</button>
+  </div>
+</div>
+
+<div id="gameModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:1000; align-items:center; justify-content:center;">
+  <div style="background:#222; border:2px solid #00ff41; padding:2rem; border-radius:10px; width:400px; text-align:center; color:#fff; box-shadow:0 0 20px rgba(0,255,65,0.3);">
+    <h1>Bit-Flieger</h1>
+    <p id="s">Punkte: 0</p>
+    <canvas id="c" width="360" height="240" style="background:#111; display:block; margin:0 auto; border:2px solid #555;"></canvas>
+    <p style="font-size:0.9rem; margin-top:10px;">Steuerung: Pfeiltasten links / rechts</p>
+    <button onclick="start()" style="background:#38bdf8; color:#0f172a; margin-top:10px;">Starten</button>
+    <button onclick="closeGame()" style="background:#ef4444; color:#fff; margin-top:10px;">Schließen</button>
+  </div>
+</div>
+
+<script>
+  let current = 0;
+  const content = {
+    "slide0": { de: ["Claude Shannon – Der Vater der Informationstheorie", "<strong>Thema:</strong> Eine kurze Einführung in das Leben und die Beiträge von Claude Shannon"], en: ["Claude Shannon – Father of Information Theory", "<strong>Topic:</strong> A brief introduction to the life and contributions of Claude Shannon"], zh: ["克劳德·香农 – 信息论之父", "<strong>主题:</strong> 关于克劳德·香农生平及其贡献的简要介绍"], el: ["Κλοντ Σάνον – Ο πατέρας της θεωρίας πληροφοριών", "<strong>Θέμα:</strong> Μια σύντομη εισαγωγή στη ζωή και τη συνεισφορά του Κλοντ Σάνον"], ko: ["클로드 섀넌 – 정보 이론의 아버지", "<strong>주제:</strong> 클로드 섀넌의 생애와 공헌에 대한 간략한 소개"] },
+    "slide1": { de: ["Lebensdaten", "<li><strong>Geboren:</strong> 30. April 1916, Petoskey, Michigan, USA</li><li><strong>Gestorben:</strong> 24. Februar 2001, Medford, Massachusetts, USA</li><li><strong>Nationalität:</strong> Amerikanisch</li>"], en: ["Biography", "<li><strong>Born:</strong> April 30, 1916, Petoskey, Michigan, USA</li><li><strong>Died:</strong> February 24, 2001, Medford, Massachusetts, USA</li><li><strong>Nationality:</strong> American</li>"], zh: ["个人资料", "<li><strong>出生:</strong> 1916年4月30日，密歇根州佩托斯基</li><li><strong>逝世:</strong> 2001年2月24日，马萨诸塞州梅德福</li><li><strong>国籍:</strong> 美国</li>"], el: ["Βιογραφικά στοιχεία", "<li><strong>Γέννηση:</strong> 30 Απριλίου 1916, Πέτοσκι, Μίσιγκαν, ΗΠΑ</li><li><strong>Θάνατος:</strong> 24 Φεβρουαρίου 2001, Μέντφορντ, Μασαχουσέτη, ΗΠΑ</li><li><strong>Εθνικότητα:</strong> Αμερικανός</li>"], ko: ["생애", "<li><strong>출생:</strong> 1916년 4월 30일, 미국 미시간주 페토스키</li><li><strong>사망:</strong> 2001년 2월 24일, 미국 매사추세츠주 메드퍼드</li><li><strong>국적:</strong> 미국</li>"] },
+    "slide2": { de: ["Wichtige Beiträge", "<li>Shannon zeigte, wie sich die Boolesche Algebra auf elektronische Relais- und Schaltungstechnik anwenden lässt.</li><li>Er erforschte komplexe Feuerleitsysteme und Radartechniken, um Flugabwehr und Flugzeuge präziser zu steuern.</li><li>Durch die Veröffentlichung von „A Mathematical Theory of Communication“ (1948) begründete er die moderne Informationstheorie.</li><li>Er legte das fundamentale Konzept der <strong>Entropie als Informationseinheit (Bit)</strong> fest und prägte damit die digitale Datenverarbeitung.</li>"], en: ["Key Contributions", "<li>Shannon showed how Boolean algebra can be applied to electronic relay and circuit technology.</li><li>He researched complex fire-control systems and radar techniques to steer aircraft and anti-aircraft defenses more precisely.</li><li>With the publication of “A Mathematical Theory of Communication” (1948), he founded modern information theory.</li><li>He established the fundamental concept of <strong>entropy as an information unit (bit)</strong>, shaping digital data processing.</li>"], zh: ["主要贡献", "<li>香农展示了布尔代数如何应用于电子继电器和电路技术。</li><li>他研究了复杂的火控系统和雷达技术，以更精确地控制飞机和防空系统。</li><li>通过发表《通信的数学理论》(1948)，他创立了现代信息论。</li><li>他确立了<strong>熵作为信息单位 (比特)</strong> 的基本概念，塑造了数字数据处理。</li>"], el: ["Σημαντική συνεισφορά", "<li>Ο Σάνον έδειξε πώς η άλγεβρα Boole μπορεί να εφαρμοστεί στην τεχνολογία ηλεκτρονικών ρελέ και κυκλωμάτων.</li><li>Ερεύνησε σύνθετα συστήματα ελέγχου πυρός και τεχνολογίες ραντάρ για τον ακριβέστερο έλεγχο αεροσκαφών και αντιαεροπορικής άμυνας.</li><li>Με τη δημοσίευση του «A Mathematical Theory of Communication» (1948), θεμελίωσε τη σύγχρονη θεωρία πληροφοριών.</li><li>Καθόρισε την έννοια της <strong>εντροπίας ως μονάδα πληροφορίας (bit)</strong>, διαμορφώνοντας την ψηφιακή επεξεργασία δεδομένων.</li>"], ko: ["주요 업적", "<li>섀넌은 불 대수가 전자 릴레이 및 회로 기술에 어떻게 적용될 수 있는지 보여주었습니다.</li><li>항공기와 대공 방어를 더 정밀하게 제어하기 위해 복잡한 화력 통제 시스템과 레이더 기술을 연구했습니다.</li><li>'통신의 수학적 이론'(1948) 발표를 통해 현대 정보 이론을 창시했습니다.</li><li><strong>정보 단위로서의 엔트로피(비트)</strong> 개념을 정립하여 디지털 데이터 처리의 기틀을 마련했습니다.</li>"] },
+    "slide3": { de: ["Grundlagen seiner Theorie", "<li>Information als Quantität: gemessen in <strong>Bits</strong></li><li><strong>Entropie</strong>: quantifiziert die Unsicherheit in Nachrichtenübertragungen</li><li><strong>Kanalkapazität</strong>: definiert die maximale Übertragungsrate zuverlässiger Daten</li><li><strong>Lossless Source Coding</strong> (Datenkompression) und <strong>Error-Correcting Codes</strong></li>"], en: ["Foundations of his Theory", "<li>Information as quantity: measured in <strong>bits</strong></li><li><strong>Entropy</strong>: quantifies uncertainty in message transmissions</li><li><strong>Channel capacity</strong>: defines the maximum reliable data transmission rate</li><li><strong>Lossless Source Coding</strong> (data compression) and <strong>error-correcting codes</strong></li>"], zh: ["理论基础", "<li>信息作为量: 以<strong>比特</strong>衡量</li><li><strong>熵</strong>: 量化消息传输中的不确定性</li><li><strong>信道容量</strong>: 定义可靠数据传输的最大速率</li><li><strong>无损源编码</strong> (数据压缩) 和 <strong>纠错码</strong></li>"], el: ["Θεμέλια της θεωρίας του", "<li>Πληροφορία ως ποσότητα: μετρημένη σε <strong>bits</strong></li><li><strong>Εντροπία</strong>: ποσοτικοποιεί την αβεβαιότητα στη μετάδοση μηνυμάτων</li><li><strong>Χωρητικότητα καναλιού</strong>: ορίζει τον μέγιστο ρυθμό αξιόπιστης μετάδοσης δεδομένων</li><li><strong>Κωδικοποίηση πηγής χωρίς απώλειες</strong> και <strong>κώδικες διόρθωσης σφαλμάτων</strong></li>"], ko: ["이론의 기초", "<li>양으로서의 정보: <strong>비트(bits)</strong> 단위 측정</li><li><strong>엔트로피</strong>: 메시지 전송의 불확실성 수치화</li><li><strong>채널 용량</strong>: 안정적인 데이터 전송의 최대 속도 정의</li><li><strong>무손실 소스 코딩</strong>(데이터 압축) 및 <strong>오류 수정 코드</strong></li>"] },
+    "slide4": { de: ["Moderne Auswirkungen", "<li>Moderne Telekommunikation (Mobilfunk, Internet)</li><li>Komprimierungsverfahren (JPEG, MP3)</li><li>Error-Korrektur in SSD-Speichern und satellitengestützten Kommunikationssystemen</li><li>Zugrunde liegendes Modell in der Computerwissenschaft und Kryptographie</li>"], en: ["Modern Impact", "<li>Modern telecommunications (mobile, internet)</li><li>Compression methods (JPEG, MP3)</li><li>Error correction in SSD storage and satellite communication systems</li><li>Underlying model in computer science and cryptography</li>"], zh: ["现代影响", "<li>现代电信 (移动通信、互联网)</li><li>压缩方法 (JPEG, MP3)</li><li>SSD 存储和卫星通信系统中的纠错</li><li>计算机科学和密码学的底层模型</li>"], el: ["Σύγχρονος αντίκτυπος", "<li>Σύγχρονες τηλεπικοινωνίες (κινητή τηλεφωνία, διαδίκτυο)</li><li>Μέθοδοι συμπίεσης (JPEG, MP3)</li><li>Διόρθωση σφαλμάτων σε αποθηκευτικά μέσα SSD και δορυφορικά συστήματα</li><li>Θεμελιώδες μοντέλο στην επιστήμη υπολογιστών και την κρυπτογραφία</li>"], ko: ["현대적 영향", "<li>현대 통신(이동통신, 인터넷)</li><li>압축 기술 (JPEG, MP3)</li><li>SSD 저장 장치 및 위성 통신 시스템의 오류 수정</li><li>컴퓨터 과학 및 암호학의 기반 모델</li>"] },
+    "slide5": { de: ["Schlussfolgerung", "Claude Shannons Arbeit schuf den theoretischen Rahmen für die digitale Welt von heute und macht seinen Namen zum Synonym für die Erfindung der modernen Informationstechnologie."], en: ["Conclusion", "Claude Shannon's work created the theoretical framework for today's digital world and makes his name synonymous with the invention of modern information technology."], zh: ["结论", "克劳德·香农的工作为当今的数字世界创造了理论框架，使他的名字成为现代信息技术发明的代名词。"], el: ["Συμπέρασμα", "Το έργο του Κλοντ Σάνον δημιούργησε το θεωρητικό πλαίσιο για τον σημερινό ψηφιακό κόσμο και κάνει το όνομά του συνώνυμο με την εφεύρεση της σύγχρονης τεχνολογίας πληροφοριών."], ko: ["결론", "클로드 섀넌의 연구는 오늘날 디지털 세계의 이론적 틀을 마련했으며, 그의 이름은 현대 정보 기술 발명의 대명사가 되었습니다."] },
+    "slide6": { de: ["Präsentation erstellt von:", "Spyro, 9a"], en: ["Presentation created by:", "Spyro, 9a"], zh: ["演示制作：", "Spyro, 9a"], el: ["Παρουσίαση από:", "Spyro, 9a"], ko: ["제작자:", "Spyro, 9a"] }
+  };
+
+  function changeLang(lang) {
+    currentLang = lang;
+    const navTexts = {
+      de: ["← Zurück", "Weiter →", ["Start", "Lebensdaten", "Beiträge", "Grundlagen", "Auswirkungen", "Schluss", "Credits"], "🧠 Quiz starten", "🔒 Quiz erst nach allen Folien"],
+      en: ["← Back", "Next →", ["Start", "Biography", "Key Contributions", "Foundations", "Impact", "Conclusion", "Credits"], "🧠 Start Quiz", "🔒 Quiz available after all slides"],
+      zh: ["← 上一页", "下一页 →", ["开始", "个人资料", "主要贡献", "理论基础", "现代影响", "结论", "制作人员"], "🧠 开始测验", "🔒 浏览所有幻灯片后解锁测验"],
+      el: ["← Πίσω", "Επόμενο →", ["Αρχή", "Βιογραφικά", "Συνεισφορά", "Θεμέλια", "Αντίκτυπος", "Συμπέρασμα", "Credits"], "🧠 Έναρξη κουίζ", "🔒 Το κουίζ ξεκλειδώνει μετά από όλες τις διαφάνειες"],
+      ko: ["← 이전", "다음 →", ["시작", "생애", "주요 업적", "이론 기초", "현대적 영향", "결론", "제작자"], "🧠 퀴즈 시작", "🔒 모든 슬라이드를 본 후 퀴즈 잠금 해제"]
+    };
+    document.getElementById('prevBtn').innerHTML = navTexts[lang][0];
+    document.getElementById('nextBtn').innerHTML = navTexts[lang][1];
+
+    const slideSelect = document.querySelector('select[onchange="showSlide(this.value)"]');
+    for (let i = 0; i < slideSelect.options.length; i++) {
+      slideSelect.options[i].text = navTexts[lang][2][i];
+    }
+
+    let qBtn = document.getElementById('quizBtn');
+    if (visitedSlides.size === slides.length) {
+      qBtn.innerHTML = navTexts[lang][3];
+    } else {
+      qBtn.innerHTML = navTexts[lang][4];
+    }
+
+    for (let id in content) {
+      let el = document.getElementById(id);
+      if (id === "slide0") {
+        el.querySelector('h1').innerHTML = content[id][lang][0];
+        el.querySelector('p').innerHTML = content[id][lang][1];
+      } else if (id === "slide6") {
+        el.querySelector('h2').innerHTML = content[id][lang][0];
+        el.querySelector('p').innerHTML = content[id][lang][1];
+      } else {
+        el.querySelector('h2').innerHTML = content[id][lang][0];
+        el.querySelector('ul').innerHTML = content[id][lang][1];
+      }
+    }
+  }
+  const slides = document.getElementsByClassName('slide');
+  let visitedSlides = new Set([0]);
+
+  function showSlide(idx){
+    current = parseInt(idx);
+    visitedSlides.add(current);
+    for(let s of slides) s.style.display = 'none';
+    if(slides[current]) slides[current].style.display = 'block';
+    document.querySelector('select[onchange="showSlide(this.value)"]').value = current;
+
+    let qBtn = document.getElementById('quizBtn');
+    const quizBtnTexts = {
+      de: [["🧠 Quiz starten", "🔒 Quiz erst nach allen Folien"]],
+      en: [["🧠 Start Quiz", "🔒 Quiz available after all slides"]],
+      zh: [["🧠 开始测验", "🔒 浏览所有幻灯片后解锁测验"]],
+      el: [["🧠 Έναρξη κουίζ", "🔒 Το κουίζ ξεκλειδώνει μετά από όλες τις διαφάνειες"]],
+      ko: [["🧠 퀴즈 시작", "🔒 모든 슬라이드를 본 후 퀴즈 잠금 해제"]]
+    };
+    let texts = quizBtnTexts[currentLang] || quizBtnTexts['de'];
+
+    if (visitedSlides.size === slides.length) {
+      qBtn.disabled = false;
+      qBtn.style.background = '#00ff41';
+      qBtn.style.cursor = 'pointer';
+      qBtn.innerHTML = texts[0][0];
+    } else {
+      qBtn.disabled = true;
+      qBtn.style.background = '#64748b';
+      qBtn.style.cursor = 'not-allowed';
+      qBtn.innerHTML = texts[0][1];
+    }
+  }
+  function nextSlide(){
+    if(current < slides.length-1) current++; showSlide(current);
+  }
+  function prevSlide(){
+    if(current > 0) current--; showSlide(current);
+  }
+
+  const quizDataAll = {
+    de: {
+      title: "Claude Shannon Quiz",
+      qText: "Frage",
+      of: "von",
+      finished: "Quiz beendet! 🎉",
+      scoreText: "Du hast",
+      correctOf: "von 10 Fragen richtig beantwortet.",
+      retry: "Nochmal spielen",
+      close: "Quiz schließen",
+      questions: [
+        { q: "Wie wird Claude Shannon oft genannt?", options: ["Der Vater der Informationstheorie", "Der Erfinder des Internets", "Der erste Programmierer"], a: 0 },
+        { q: "In welchem Jahr wurde Claude Shannon geboren?", options: ["1912", "1916", "1937"], a: 1 },
+        { q: "An welcher berühmten Uni machte er seinen Master und Doktor?", options: ["Harvard", "Stanford", "MIT"], a: 2 },
+        { q: "In welchem bekannten Forschungslabor arbeitete er ab 1941?", options: ["Bell Laboratories", "Google Lab", "NASA"], a: 0 },
+        { q: "Welche mathematische Logik wendete er 1937 auf Schaltungen an?", options: ["Euklidische Geometrie", "Boolesche Logik", "Quantenlogik"], a: 1 },
+        { q: "Welchen Begriff übernahm er aus der Physik für seine Theorie?", options: ["Entropie", "Schwerkraft", "Relativität"], a: 0 },
+        { q: "In welcher Einheit wird Information laut Shannon gemessen?", options: ["Bytes", "Bits", "Herz"], a: 1 },
+        { q: "Wofür steht das Abtasttheorem (1948)?", options: ["Umwandlung analoger in digitale Signale", "Verschlüsselung von Geheimcodes", "Berechnung von Börsenkursen"], a: 0 },
+        { q: "Welches moderne Format nutzt Prinzipien seiner Kompression?", options: ["MP3", "TXT", "PDF"], a: 0 },
+        { q: "Woran litte Claude Shannon in seinen letzten Lebensjahren?", options: ["Alzheimer", "Asthma", "Sehschwäche"], a: 0 }
+      ]
+    },
+    en: {
+      title: "Claude Shannon Quiz",
+      qText: "Question",
+      of: "of",
+      finished: "Quiz finished! 🎉",
+      scoreText: "You answered",
+      correctOf: "of 10 questions correctly.",
+      retry: "Play again",
+      close: "Close quiz",
+      questions: [
+        { q: "What is Claude Shannon often called?", options: ["The Father of Information Theory", "The Inventor of the Internet", "The First Programmer"], a: 0 },
+        { q: "In what year was Claude Shannon born?", options: ["1912", "1916", "1937"], a: 1 },
+        { q: "At which famous university did he earn his Master's and PhD?", options: ["Harvard", "Stanford", "MIT"], a: 2 },
+        { q: "In which famous research lab did he start working in 1941?", options: ["Bell Laboratories", "Google Lab", "NASA"], a: 0 },
+        { q: "What mathematical logic did he apply to circuits in 1937?", options: ["Euclidean Geometry", "Boolean Logic", "Quantum Logic"], a: 1 },
+        { q: "What term did he borrow from physics for his theory?", options: ["Entropy", "Gravity", "Relativity"], a: 0 },
+        { q: "In what unit is information measured according to Shannon?", options: ["Bytes", "Bits", "Hertz"], a: 1 },
+        { q: "What does the Sampling Theorem (1948) stand for?", options: ["Conversion of analog to digital signals", "Encryption of secret codes", "Calculation of stock prices"], a: 0 },
+        { q: "Which modern format uses principles of his compression?", options: ["MP3", "TXT", "PDF"], a: 0 },
+        { q: "What did Claude Shannon suffer from in his final years?", options: ["Alzheimer's", "Asthma", "Poor eyesight"], a: 0 }
+      ]
+    },
+    zh: {
+      title: "克劳德·香农测验",
+      qText: "问题",
+      of: "共",
+      finished: "测验结束！ 🎉",
+      scoreText: "你答对了",
+      correctOf: "道题中的 10 道。",
+      retry: "再玩一次",
+      close: "关闭测验",
+      questions: [
+        { q: "克劳德·香农常被称为？", options: ["信息论之父", "互联网发明者", "第一位程序员"], a: 0 },
+        { q: "克劳德·香农在哪一年出生？", options: ["1912", "1916", "1937"], a: 1 },
+        { q: "他在哪所著名大学获得硕士和博士学位？", options: ["哈佛大学", "斯坦福大学", "麻省理工学院 (MIT)"], a: 2 },
+        { q: "他从 1941 年开始在哪家著名的研究实验室工作？", options: ["贝尔实验室", "谷歌实验室", "美国宇航局 (NASA)"], a: 0 },
+        { q: "他在 1937 年将什么数学逻辑应用于电路？", options: ["欧几里得几何", "布尔逻辑", "量子逻辑"], a: 1 },
+        { q: "他从物理学中借用了哪个术语用于他的理论？", options: ["熵", "引力", "相对论"], a: 0 },
+        { q: "根据香农的理论，信息是以什么单位衡量的？", options: ["字节 (Bytes)", "比特 (Bits)", "赫兹 (Hertz)"], a: 1 },
+        { q: "采样定理 (1948) 代表什么？", options: ["模拟信号转换为数字信号", "密码加密", "股票价格计算"], a: 0 },
+        { q: "哪个现代格式使用了他压缩原理？", options: ["MP3", "TXT", "PDF"], a: 0 },
+        { q: "克劳德·香农晚年患有什么疾病？", options: ["老年痴呆症 (阿尔茨海默病)", "哮喘", "视力受损"], a: 0 }
+      ]
+    },
+    el: {
+      title: "Κουίζ για τον Κλοντ Σάνον",
+      qText: "Ερώτηση",
+      of: "από",
+      finished: "Το κουίζ τελείωσε! 🎉",
+      scoreText: "Απαντήσατε σωστά σε",
+      correctOf: "από 10 ερωτήσεις.",
+      retry: "Παίξτε ξανά",
+      close: "Κλείσιμο κουίζ",
+      questions: [
+        { q: "Πώς αποκαλείται συχνά ο Κλοντ Σάνον;", options: ["Ο πατέρας της θεωρίας πληροφοριών", "Ο εφευρέτης του διαδικτύου", "Ο πρώτος προγραμματιστής"], a: 0 },
+        { q: "Σε ποιο έτος γεννήθηκε ο Κλοντ Σάνον;", options: ["1912", "1916", "1937"], a: 1 },
+        { q: "Σε ποιο διάσημο πανεπιστήμιο πήρε το μεταπτυχιακό και το διδακτορικό του;", options: ["Χάρβαρντ", "Στάνφορντ", "ΜΙΤ"], a: 2 },
+        { q: "Σε ποιο γνωστό ερευνητικό εργαστήριο εργάστηκε από το 1941;", options: ["Bell Laboratories", "Google Lab", "NASA"], a: 0 },
+        { q: "Ποια μαθηματική λογική εφάρμοσε στα κυκλώματα το 1937;", options: ["Ευκλείδεια γεωμετρία", "Λογική Boole", "Κβαντική λογική"], a: 1 },
+        { q: "Ποια έννοια δανείστηκε από τη φυσική για τη θεωρία του;", options: ["Εντροπία", "Βαρύτητα", "Σχετικότητα"], a: 0 },
+        { q: "Σε ποια μονάδα μετράται η πληροφορία σύμφωνα με τον Σάνον;", options: ["Bytes", "Bits", "Hertz"], a: 1 },
+        { q: "Τι αντιπροσωπεύει το θεώρημα δειγματοληψίας (1948);", options: ["Μετατροπή αναλογικών σε ψηφιακά σήματα", "Κρυπτογράφηση κωδικών", "Υπολογισμός τιμών μετοχών"], a: 0 },
+        { q: "Ποια σύγχρονη μορφή χρησιμοποιεί αρχές της συμπίεσής του;", options: ["MP3", "TXT", "PDF"], a: 0 },
+        { q: "Από τι έπασχε ο Κλοντ Σάνον τα τελευταία χρόνια της ζωής του;", options: ["Αλτσχάιμερ", "Άσθμα", "Προβλήματα όρασης"], a: 0 }
+      ]
+    },
+    ko: {
+      title: "클로드 섀넌 퀴즈",
+      qText: "질문",
+      of: "/",
+      finished: "퀴즈 종료! 🎉",
+      scoreText: "10문제 중",
+      correctOf: "개를 맞혔습니다.",
+      retry: "다시 하기",
+      close: "퀴즈 닫기",
+      questions: [
+        { q: "클로드 섀넌은 종종 뭐라고 불리나요?", options: ["정보 이론의 아버지", "인터넷의 발명가", "최초의 프로그래머"], a: 0 },
+        { q: "클로드 섀넌은 몇 년에 태어났나요?", options: ["1912년", "1916년", "1937년"], a: 1 },
+        { q: "그가 석사와 박사 학위를 받은 유명한 대학은 어디인가요?", options: ["하버드 대학교", "스탠퍼드 대학교", "MIT"], a: 2 },
+        { q: "그가 1941년부터 연구원으로 일했던 유명한 연구소는 어디인가요?", options: ["벨 연구소", "구글 랩", "NASA"], a: 0 },
+        { q: "그가 1937년에 회로에 적용한 수학적 논리는 무엇인가요?", options: ["유클리드 기하학", "불 대수(Boolesche Logik)", "양자 논리"], a: 1 },
+        { q: "자신의 이론을 위해 물리학에서 차용한 개념은 무엇인가요?", options: ["엔트로피", "중력", "상대성"], a: 0 },
+        { q: "섀넌에 따르면 정보는 어떤 단위로 측정되나요?", options: ["바이트(Bytes)", "비트(Bits)", "헤르츠(Hertz)"], a: 1 },
+        { q: "표본화 정리(1948)가 뜻하는 것은 무엇인가요?", options: ["아날로그 신호의 디지털 신호 변환", "비밀 코드 암호화", "주식 시장 가격 계산"], a: 0 },
+        { q: "그의 압축 원리를 사용하는 현대 포맷은 무엇인가요?", options: ["MP3", "TXT", "PDF"], a: 0 },
+        { q: "클로드 섀넌이 말년에 앓았던 병은 무엇인가요?", options: ["알츠하이머", "천식", "시력 저하"], a: 0 }
+      ]
+    }
+  };
+
+  let currentLang = 'de';
+  let currentQ = 0;
+  let score = 0;
+
+  function openQuiz() {
+    currentQ = 0;
+    score = 0;
+    document.getElementById('quizModal').style.display = 'flex';
+    showQuestion();
+  }
+
+  function closeQuiz() {
+    document.getElementById('quizModal').style.display = 'none';
+  }
+
+  function openGame() {
+    document.getElementById('gameModal').style.display = 'flex';
+  }
+
+  function closeGame() {
+    document.getElementById('gameModal').style.display = 'none';
+    clearInterval(t);
+    clearInterval(t2);
+  }
+
+  let x=160,b=[],comets=[],s=0,k={},t,t2;
+  onkeydown=e=>k[e.key]=1;onkeyup=e=>k[e.key]=0;
+  function start(){x=160;b=[];comets=[];s=0;clearInterval(t);clearInterval(t2);
+  t=setInterval(()=>{
+    if(k.ArrowLeft)x-=5;if(k.ArrowRight)x+=5;
+    let canvas = document.getElementById("c");
+    let g=canvas.getContext("2d");g.clearRect(0,0,360,240);
+    g.fillStyle="#0fc";g.fillRect(x,200,30,20);
+    b.forEach((v,i)=>{v.y+=3;g.fillStyle=v.n?"yellow":"magenta";g.font="16px monospace";g.fillText(v.n,v.x,v.y);
+    if(v.y>190&&v.y<220&&v.x>=x&&v.x<x+30){s+=v.n?10:5;b.splice(i,1)}});
+    comets.forEach((c,i)=>{c.y+=2;g.fillStyle="gray";g.beginPath();g.arc(c.x,c.y,12,0,Math.PI*2);g.fill();
+    if(c.y>185&&c.y<220&&c.x>=x-10&&c.x<=x+40){
+      s=0;
+      g.fillStyle="red";
+      g.font="30px monospace";
+      g.fillText("GAME OVER", 80, 120);
+      clearInterval(t);
+      clearInterval(t2);
+    }});
+    document.getElementById("s").textContent="Punkte: "+s;
+  },17);
+  t2=setInterval(()=>b.push({x:Math.random()*320,y:0,n:Math.random()>.5?1:0}),1000);
+  setInterval(()=>comets.push({x:Math.random()*340,y:0}),2500)}
+
+  function showQuestion() {
+    let quizData = quizDataAll[currentLang] || quizDataAll['de'];
+    let questions = quizData.questions;
+    
+    document.querySelector('#quizModal h2').innerText = quizData.title;
+
+    if (currentQ < questions.length) {
+      let qData = questions[currentQ];
+      let html = `<p><strong>${quizData.qText} ${currentQ + 1} ${quizData.of} ${questions.length}:</strong></p>`;
+      html += `<p style="font-size:1.2rem; color:#38bdf8;">${qData.q}</p>`;
+      html += `<div style="display:flex; flex-direction:column; gap:10px; margin-top:20px;" id="optionsContainer">`;
+      qData.options.forEach((opt, idx) => {
+        html += `<button onclick="checkAnswer(this, ${idx})" style="text-align:left; background:#38bdf8; color:#0f172a; padding:14px 18px; border-radius:8px; font-weight:bold; cursor:pointer; border:none;" data-idx="${idx}">${opt}</button>`;
+      });
+      html += `</div>`;
+      document.getElementById('quizContent').innerHTML = html;
+    } else {
+      let html = `<h3>${quizData.finished}</h3>`;
+      html += `<p style="font-size:1.3rem;">${quizData.scoreText} ${score} ${quizData.correctOf}</p>`;
+      html += `<button onclick="openQuiz()" style="background:#38bdf8; color:#0f172a; margin-top:15px; padding:10px 20px; border-radius:5px; font-weight:bold; cursor:pointer; border:none;">${quizData.retry}</button>`;
+      document.getElementById('quizContent').innerHTML = html;
+    }
+    
+    let closeBtn = document.querySelector('#quizModal button[onclick="closeQuiz()"]');
+    if (closeBtn) closeBtn.innerText = quizData.close;
+  }
+
+  function checkAnswer(btn, selected) {
+    let quizData = quizDataAll[currentLang] || quizDataAll['de'];
+    let qData = quizData.questions[currentQ];
+    let buttons = document.querySelectorAll('#optionsContainer button');
+    
+    buttons.forEach(b => {
+      b.disabled = true;
+      b.onmouseover = null;
+      b.onmouseout = null;
+      b.onmousedown = null;
+      b.onmouseup = null;
+      b.style.transform = 'scale(1)';
+    });
+
+    if (selected === qData.a) {
+      score++;
+      btn.style.background = '#22c55e';
+      btn.style.color = '#fff';
+    } else {
+      btn.style.background = '#ef4444';
+      btn.style.color = '#fff';
+      buttons[qData.a].style.background = '#22c55e';
+      buttons[qData.a].style.color = '#fff';
+    }
+
+    setTimeout(() => {
+      currentQ++;
+      showQuestion();
+    }, 1000);
+  }
+
+  showSlide(current);
+
+  function createBinaryParticle() {
+    const el = document.createElement('div');
+    el.className = 'binary-rain';
+    el.innerText = Math.random() < 0.5 ? '0' : '1';
+    el.style.left = Math.random() * window.innerWidth + 'px';
+    el.style.animationDuration = (Math.random() * 5 + 3) + 's';
+    el.style.fontSize = (Math.random() * 8 + 16) + 'px';
+    document.body.appendChild(el);
+    setTimeout(() => {
+      el.remove();
+    }, 8000);
+  }
+  setInterval(createBinaryParticle, 300);
+</script>
+
+</body>
+</html>
