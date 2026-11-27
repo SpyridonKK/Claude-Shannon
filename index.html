@@ -98,6 +98,17 @@
 </div>
 
 <div id="slide6" class="slide" style="text-align: center;">
+  <h2>Fotos & Impressionen</h2>
+  <div style="display: flex; gap: 20px; justify-content: center; align-items: center; flex-wrap: wrap;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxnwl8oXGma40FDSsb7g8TVHk2ygPc93z_AdcbQnYFyg&s=10" alt="Claude Shannon" style="max-width: 45%; max-height: 45vh; border-radius: 10px; border: 2px solid #00ff41; box-shadow: 0 0 15px rgba(0,255,65,0.4);">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWAgSh2SecffXJnS_jlTw1bChdO-l5KsJcw7Bz3HVIlQ&s=10" alt="Claude Shannon" style="max-width: 45%; max-height: 45vh; border-radius: 10px; border: 2px solid #00ff41; box-shadow: 0 0 15px rgba(0,255,65,0.4);">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTc1KQRf1_I_M1Knpq7TLwhwkvWlUH5yTpBy7I3kUZTg&s=10" alt="Claude Shannon" style="max-width: 45%; max-height: 45vh; border-radius: 10px; border: 2px solid #00ff41; box-shadow: 0 0 15px rgba(0,255,65,0.4);">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYu-bFydXpXvL2O5jmnNcUG1S7DwBCGExcflWK6Kqpkg&s=10" alt="Claude Shannon" style="max-width: 45%; max-height: 45vh; border-radius: 10px; border: 2px solid #00ff41; box-shadow: 0 0 15px rgba(0,255,65,0.4);">
+  </div>
+  <p style="text-align: right; font-size: 0.8rem; margin-top: 20px;">©️2026, Spyro, 9a</p>
+</div>
+
+<div id="slide7" class="slide" style="text-align: center;">
   <h2>Präsentation erstellt von:</h2>
   <p style="font-size: 1.5rem; color: #00ff41;">Spyro, 9a</p>
   <p style="text-align: right; font-size: 0.8rem; margin-top: 20px;">©️2026, Spyro, 9a</p>
@@ -115,7 +126,8 @@
     <option value="3">Grundlagen</option>
     <option value="4">Auswirkungen</option>
     <option value="5">Schluss</option>
-    <option value="6">Credits</option>
+    <option value="6">Fotos</option>
+    <option value="7">Credits</option>
   </select>
   <select onchange="changeLang(this.value)" style="position: absolute; top: 20px; right: 20px; background: #38bdf8; border: none; padding: 10px; border-radius: 5px; cursor: pointer; font-weight: bold; color: #0f172a;">
     <option value="de">Deutsch</option>
@@ -154,17 +166,18 @@
     "slide3": { de: ["Grundlagen seiner Theorie", "<li>Information als Quantität: gemessen in <strong>Bits</strong></li><li><strong>Entropie</strong>: quantifiziert die Unsicherheit in Nachrichtenübertragungen</li><li><strong>Kanalkapazität</strong>: definiert die maximale Übertragungsrate zuverlässiger Daten</li><li><strong>Lossless Source Coding</strong> (Datenkompression) und <strong>Error-Correcting Codes</strong></li>"], en: ["Foundations of his Theory", "<li>Information as quantity: measured in <strong>bits</strong></li><li><strong>Entropy</strong>: quantifies uncertainty in message transmissions</li><li><strong>Channel capacity</strong>: defines the maximum reliable data transmission rate</li><li><strong>Lossless Source Coding</strong> (data compression) and <strong>error-correcting codes</strong></li>"], zh: ["理论基础", "<li>信息作为量: 以<strong>比特</strong>衡量</li><li><strong>熵</strong>: 量化消息传输中的不确定性</li><li><strong>信道容量</strong>: 定义可靠数据传输的最大速率</li><li><strong>无损源编码</strong> (数据压缩) 和 <strong>纠错码</strong></li>"], el: ["Θεμέλια της θεωρίας του", "<li>Πληροφορία ως ποσότητα: μετρημένη σε <strong>bits</strong></li><li><strong>Εντροπία</strong>: ποσοτικοποιεί την αβεβαιότητα στη μετάδοση μηνυμάτων</li><li><strong>Χωρητικότητα καναλιού</strong>: ορίζει τον μέγιστο ρυθμό αξιόπιστης μετάδοσης δεδομένων</li><li><strong>Κωδικοποίηση πηγής χωρίς απώλειες</strong> και <strong>κώδικες διόρθωσης σφαλμάτων</strong></li>"], ko: ["이론의 기초", "<li>양으로서의 정보: <strong>비트(bits)</strong> 단위 측정</li><li><strong>엔트로피</strong>: 메시지 전송의 불확실성 수치화</li><li><strong>채널 용량</strong>: 안정적인 데이터 전송의 최대 속도 정의</li><li><strong>무손실 소스 코딩</strong>(데이터 압축) 및 <strong>오류 수정 코드</strong></li>"] },
     "slide4": { de: ["Moderne Auswirkungen", "<li>Moderne Telekommunikation (Mobilfunk, Internet)</li><li>Komprimierungsverfahren (JPEG, MP3)</li><li>Error-Korrektur in SSD-Speichern und satellitengestützten Kommunikationssystemen</li><li>Zugrunde liegendes Modell in der Computerwissenschaft und Kryptographie</li>"], en: ["Modern Impact", "<li>Modern telecommunications (mobile, internet)</li><li>Compression methods (JPEG, MP3)</li><li>Error correction in SSD storage and satellite communication systems</li><li>Underlying model in computer science and cryptography</li>"], zh: ["现代影响", "<li>现代电信 (移动通信、互联网)</li><li>压缩方法 (JPEG, MP3)</li><li>SSD 存储和卫星通信系统中的纠错</li><li>计算机科学和密码学的底层模型</li>"], el: ["Σύγχρονος αντίκτυπος", "<li>Σύγχρονες τηλεπικοινωνίες (κινητή τηλεφωνία, διαδίκτυο)</li><li>Μέθοδοι συμπίεσης (JPEG, MP3)</li><li>Διόρθωση σφαλμάτων σε αποθηκευτικά μέσα SSD και δορυφορικά συστήματα</li><li>Θεμελιώδες μοντέλο στην επιστήμη υπολογιστών και την κρυπτογραφία</li>"], ko: ["현대적 영향", "<li>현대 통신(이동통신, 인터넷)</li><li>압축 기술 (JPEG, MP3)</li><li>SSD 저장 장치 및 위성 통신 시스템의 오류 수정</li><li>컴퓨터 과학 및 암호학의 기반 모델</li>"] },
     "slide5": { de: ["Schlussfolgerung", "Claude Shannons Arbeit schuf den theoretischen Rahmen für die digitale Welt von heute und macht seinen Namen zum Synonym für die Erfindung der modernen Informationstechnologie."], en: ["Conclusion", "Claude Shannon's work created the theoretical framework for today's digital world and makes his name synonymous with the invention of modern information technology."], zh: ["结论", "克劳德·香农的工作为当今的数字世界创造了理论框架，使他的名字成为现代信息技术发明的代名词。"], el: ["Συμπέρασμα", "Το έργο του Κλοντ Σάνον δημιούργησε το θεωρητικό πλαίσιο για τον σημερινό ψηφιακό κόσμο και κάνει το όνομά του συνώνυμο με την εφεύρεση της σύγχρονης τεχνολογίας πληροφοριών."], ko: ["결론", "클로드 섀넌의 연구는 오늘날 디지털 세계의 이론적 틀을 마련했으며, 그의 이름은 현대 정보 기술 발명의 대명사가 되었습니다."] },
-    "slide6": { de: ["Präsentation erstellt von:", "Spyro, 9a"], en: ["Presentation created by:", "Spyro, 9a"], zh: ["演示制作：", "Spyro, 9a"], el: ["Παρουσίαση από:", "Spyro, 9a"], ko: ["제작자:", "Spyro, 9a"] }
+    "slide6": { de: ["Fotos & Impressionen", "Fotos"], en: ["Photos & Impressions", "Photos"], zh: ["照片与印象", "照片"], el: ["Φωτογραφίες & Εντυπώσεις", "Φωτογραφίες"], ko: ["사진 및 인상", "사진"] },
+    "slide7": { de: ["Präsentation erstellt von:", "Spyro, 9a"], en: ["Presentation created by:", "Spyro, 9a"], zh: ["演示制作：", "Spyro, 9a"], el: ["Παρουσίαση από:", "Spyro, 9a"], ko: ["제작자:", "Spyro, 9a"] }
   };
 
   function changeLang(lang) {
     currentLang = lang;
     const navTexts = {
-      de: ["← Zurück", "Weiter →", ["Start", "Lebensdaten", "Beiträge", "Grundlagen", "Auswirkungen", "Schluss", "Credits"], "🧠 Quiz starten", "🔒 Quiz erst nach allen Folien"],
-      en: ["← Back", "Next →", ["Start", "Biography", "Key Contributions", "Foundations", "Impact", "Conclusion", "Credits"], "🧠 Start Quiz", "🔒 Quiz available after all slides"],
-      zh: ["← 上一页", "下一页 →", ["开始", "个人资料", "主要贡献", "理论基础", "现代影响", "结论", "制作人员"], "🧠 开始测验", "🔒 浏览所有幻灯片后解锁测验"],
-      el: ["← Πίσω", "Επόμενο →", ["Αρχή", "Βιογραφικά", "Συνεισφορά", "Θεμέλια", "Αντίκτυπος", "Συμπέρασμα", "Credits"], "🧠 Έναρξη κουίζ", "🔒 Το κουίζ ξεκλειδώνει μετά από όλες τις διαφάνειες"],
-      ko: ["← 이전", "다음 →", ["시작", "생애", "주요 업적", "이론 기초", "현대적 영향", "결론", "제작자"], "🧠 퀴즈 시작", "🔒 모든 슬라이드를 본 후 퀴즈 잠금 해제"]
+      de: ["← Zurück", "Weiter →", ["Start", "Lebensdaten", "Beiträge", "Grundlagen", "Auswirkungen", "Schluss", "Fotos", "Credits"], "🧠 Quiz starten", "🔒 Quiz erst nach allen Folien"],
+      en: ["← Back", "Next →", ["Start", "Biography", "Key Contributions", "Foundations", "Impact", "Conclusion", "Photos", "Credits"], "🧠 Start Quiz", "🔒 Quiz available after all slides"],
+      zh: ["← 上一页", "下一页 →", ["开始", "个人资料", "主要贡献", "理论基础", "现代影响", "结论", "照片", "制作人员"], "🧠 开始测验", "🔒 浏览所有幻灯片后解锁测验"],
+      el: ["← Πίσω", "Επόμενο →", ["Αρχή", "Βιογραφικά", "Συνεισφορά", "Θεμέλια", "Αντίκτυπος", "Συμπέρασμα", "Φωτογραφίες", "Credits"], "🧠 Έναρξη κουίζ", "🔒 Το κουίζ ξεκλειδώνει μετά από όλες τις διαφάνειες"],
+      ko: ["← 이전", "다음 →", ["시작", "생애", "주요 업적", "이론 기초", "현대적 영향", "결론", "사진", "제작자"], "🧠 퀴즈 시작", "🔒 모든 슬라이드를 본 후 퀴즈 잠금 해제"]
     };
     document.getElementById('prevBtn').innerHTML = navTexts[lang][0];
     document.getElementById('nextBtn').innerHTML = navTexts[lang][1];
@@ -187,6 +200,8 @@
         el.querySelector('h1').innerHTML = content[id][lang][0];
         el.querySelector('p').innerHTML = content[id][lang][1];
       } else if (id === "slide6") {
+        el.querySelector('h2').innerHTML = content[id][lang][0];
+      } else if (id === "slide7") {
         el.querySelector('h2').innerHTML = content[id][lang][0];
         el.querySelector('p').innerHTML = content[id][lang][1];
       } else {
